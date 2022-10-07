@@ -28,7 +28,6 @@ class _SettingState extends State<Setting> {
             height: 2,
           ),
           onChanged: (String? value) {
-            // This is called when the user selects an item.
             setState(() {
               dropdownValue = value!;
             });
